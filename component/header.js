@@ -1,24 +1,20 @@
 let man = document.querySelector('header');
-let showpage;
-let name;
-
-function setpage(value) {
-    showpage = value;
-}
-
-if (window.location.pathname === '/shop.html') {
-    setpage('/home.html');
-    name = 'Home'; 
-} else if (window.location.pathname === '/home.html') {
-    setpage('/shop.html');
-    name = 'Shop';
-}
 
 let nweheader = document.createElement('div');
+nweheader.className="header-info";
 nweheader.innerHTML = `
-    <div id="header">
-        <h1 style="text-align: center;">Header</h1>
-        <a href="${showpage}">${name}</a>
-    </div>
+         <div class="logo">
+           <img src="./image/logo.png" width="70" height="70">
+         </div>
+         <div class="menu">
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About Us</a></li>
+           <li><a href="#">Departments</a></li>
+           <li><a href="#">Doctors</a></li>
+           <li><a href="#">Emergency</a></li>
+           <li><a href="#">Pharmacy</a></li>
+           <li><a href="#">Contact Us</a></li>
+           <li id="last-menu"><a href="#">Schedule an appointment</a></li>
+         </div>
 `;
 man.appendChild(nweheader);
