@@ -1,5 +1,9 @@
 let man = document.querySelector('header');
 
+const screenWidth = window.innerWidth;
+console.log("Screen width is: " + screenWidth + "px");
+
+let man1 = 1;
 let nweheader = document.createElement('div');
 nweheader.className="header-info";
 nweheader.innerHTML = `
@@ -13,8 +17,11 @@ nweheader.innerHTML = `
            <li><a href="#">Doctors</a></li>
            <li><a href="#">Emergency</a></li>
            <li><a href="#">Pharmacy</a></li>
-           <li><a href="#">Contact Us</a></li>
-           <li id="last-menu"><a href="#">Schedule an appointment</a></li>
+           ${screenWidth !== 1024 ?
+            '<li id="last-menu"><a href="#">Schedule an appointment</a></li>'
+            :
+            '<li id="last-menu"><a href="#">Get an appointment</a></li>'
+          }
          </div>
 `;
 man.appendChild(nweheader);
