@@ -23,7 +23,7 @@ footer{
 .contact-part {
     width: 1090px;
     display: flex;
-    gap: 100px;
+    gap: 80px;
 }
 .contact-part span p{
     color: #004586;
