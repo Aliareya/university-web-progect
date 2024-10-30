@@ -12,7 +12,7 @@ nweheader.innerHTML = `
          </div>
          <div class="menu">
            <li><a href="#">Home</a></li>
-           <li><a href="#">About Us</a></li>
+           <li><a href="about.html">About Us</a></li>
            <li><a href="#">Departments</a></li>
            <li><a href="#">Doctors</a></li>
            <li><a href="#">Emergency</a></li>
