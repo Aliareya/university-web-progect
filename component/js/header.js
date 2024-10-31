@@ -1,9 +1,10 @@
 const header = document.querySelector('header');
-let mobileMenu = 1; 
+let mobileMenu = "hide"; 
 
 function updateHeader() {
     header.innerHTML = ""; 
     const screenWidth = window.innerWidth;
+    
     const newHeader = document.createElement('div');
     newHeader.className = "header-info";
     newHeader.innerHTML = `
@@ -29,13 +30,29 @@ function updateHeader() {
 
     header.appendChild(newHeader);
 
+    const mobileMenuContent = document.createElement('div');
+    mobileMenuContent.id = "mobile-menu-content";
+    mobileMenuContent.className = "mobile-menu-content";
+    mobileMenuContent.style.display = mobileMenu === "show" ? "flex" : "none";
+    mobileMenuContent.innerHTML = `
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Departments</a></li>
+        <li><a href="#">Doctors</a></li>
+        <li><a href="#">Emergency</a></li>
+        <li><a href="#">Pharmacy</a></li>
+        <li id="last-mobail-menu"><a href="#">Schedule an appointment</a></li>
+    `;
+    
+    header.appendChild(mobileMenuContent);
+
     const toggle = document.getElementById('mobile-toggle');
     if (toggle) {
         toggle.addEventListener("click", function(e) {
             e.preventDefault();
-            mobileMenu = mobileMenu === 1 ? 2 : 1; 
-
-            toggle.src = mobileMenu === 1 ? "./image/menu.png" : "./image/close.png";
+            mobileMenu = mobileMenu === "hide" ? "show" : "hide"; 
+            toggle.src = mobileMenu === 'hide' ? "./image/menu.png" : "./image/close.png";
+            mobileMenuContent.style.display = mobileMenu === "show" ? "flex" : "none";
         });
     }
 }
@@ -43,3 +60,4 @@ function updateHeader() {
 updateHeader();
 
 window.addEventListener('resize', updateHeader);
+
