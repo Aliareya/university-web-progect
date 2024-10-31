@@ -12,7 +12,7 @@ function updateHeader() {
         <div class="logo">
             <img src="./image/logo.png" width="70" height="70">
         </div>
-        ${screenWidth > 800 ? `
+        ${screenWidth > 850 ? `
             <div class="menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
@@ -23,7 +23,9 @@ function updateHeader() {
                 <li id="last-menu"><a href="#">Schedule an appointment</a></li>
             </div>
         ` : `
-            <div class="mobile-menu">Mobile</div>
+            <div class="mobile-menu">
+              <img src="./image/menu.png" width="25" height="25">
+            </div>
         `}
     `;
 
