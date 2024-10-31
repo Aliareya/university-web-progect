@@ -24,7 +24,7 @@ function updateHeader() {
             </div>
         ` : `
             <div class="mobile-menu">
-              <img src="./image/menu.png" width="25" height="25">
+              <img src="./image/menu.png" width="28" height="28">
             </div>
         `}
     `;
