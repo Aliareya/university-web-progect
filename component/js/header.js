@@ -1,14 +1,12 @@
-let man = document.querySelector('header');
+const header = document.querySelector('header');
+let mobileMenu = 1; 
 
 function updateHeader() {
-    // Clear any existing header content
-    man.innerHTML = "";
-
+    header.innerHTML = ""; 
     const screenWidth = window.innerWidth;
-
-    let nweheader = document.createElement('div');
-    nweheader.className = "header-info";
-    nweheader.innerHTML = `
+    const newHeader = document.createElement('div');
+    newHeader.className = "header-info";
+    newHeader.innerHTML = `
         <div class="logo">
             <img src="./image/logo.png" width="70" height="70">
         </div>
@@ -24,16 +22,24 @@ function updateHeader() {
             </div>
         ` : `
             <div class="mobile-menu">
-              <img src="./image/menu.png" width="28" height="28">
+                <img id="mobile-toggle" src="./image/menu.png" width="28" height="28">
             </div>
         `}
     `;
 
-    man.appendChild(nweheader);
+    header.appendChild(newHeader);
+
+    const toggle = document.getElementById('mobile-toggle');
+    if (toggle) {
+        toggle.addEventListener("click", function(e) {
+            e.preventDefault();
+            mobileMenu = mobileMenu === 1 ? 2 : 1; 
+
+            toggle.src = mobileMenu === 1 ? "./image/menu.png" : "./image/close.png";
+        });
+    }
 }
 
-// Initialize the header on page load
 updateHeader();
 
-// Update the header on window resize
 window.addEventListener('resize', updateHeader);
