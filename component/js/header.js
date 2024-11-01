@@ -13,7 +13,7 @@ function updateHeader() {
         </div>
         ${screenWidth > 850 ? `
             <div class="menu">
-                <li><a href="#">Home</a></li>
+                <li><a href="Home.html">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Departments</a></li>
                 <li><a href="#">Doctors</a></li>
@@ -35,7 +35,7 @@ function updateHeader() {
     mobileMenuContent.className = "mobile-menu-content";
     mobileMenuContent.style.display = mobileMenu === "show" ? "flex" : "none";
     mobileMenuContent.innerHTML = `
-        <li><a href="#">Home</a></li>
+        <li><a href="Home.html">Home</a></li>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Departments</a></li>
         <li><a href="#">Doctors</a></li>
