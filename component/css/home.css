@@ -17,7 +17,7 @@
    width: 40%;
 }
 .hero-imag{
-    width: 47%;
+    width: 46%;
     padding-top: 20px;
 }
 .hero-imag img{
@@ -47,8 +47,11 @@
 /* part tow */
 .hero-2{
     width: 100%;
-    height: 900px;
+    height: 770px;
     background-color: #ffffff;
+}
+#hero-contant-3 h1{
+    color:#064961;
 }
 .hero-part-2{
     width: 100%;
@@ -93,4 +96,62 @@
 }
 #depatrt a{
     text-decoration: none;
+}
+
+/*part three*/
+#emargency{
+    width: 550px;
+    height: 550px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+#hero-part-3{
+    height: 780px;
+}
+#hero-imag-3{
+    width: 35%;
+}
+#hero-contant-3{
+    width: 45%;
+}
+#hero-contant-3 h1{
+    font-size: 85px;
+}
+
+/* part 4*/
+
+.hero-part-4{
+    width: 100%;
+    height: 900px;
+    background-color: #f4efef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:20px ;
+}
+.hero-part-4 h1{
+   font-size: 40px;
+   padding-top: 30px;
+}
+.locations{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.location{
+    width: 240px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #746b6b;   */
+     
+}
+.location h1{
+    font-size: 30px;
+    padding-top: 10px;
 }
