@@ -1,6 +1,6 @@
 footer{
     width: 100%;
-    height: 170px;
+    height: 140px;
     background-color: rgb(255, 255, 255);
 }
 .socila-link {
@@ -11,28 +11,80 @@ footer{
 }
 .footer-info {
     width: 100%;
-    height: 150px;
+    height: 140px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .hp-logo {
-    width: 300px;
-    padding-top: 30px;
+    width: 20%;
 }
 .contact-part {
-    width: 1090px;
+    width: 70%;
     display: flex;
-    gap: 80px;
+    gap: 140px;
+    justify-content: center;
 }
 .contact-part span p{
     color: #004586;
     padding-top: 10px;
 }
 .contact-part span {
-    height: 60px;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 3px;
+}
+
+
+@media (max-width: 1024px){
+    .contact-part {
+        gap: 60px;
+    }
+    .hp-logo img{
+        width: 150px;
+    }
+}
+
+@media (max-width: 800px){
+    .contact-part {
+        gap: 85px;
+    }
+    .hp-logo img{
+        width: 130px;
+    }
+    .footer-info {
+        width: 100%;
+        height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media (max-width: 450px){
+    .footer-info {
+        width: 100%;
+        height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contact-part {
+        gap: 7%;
+    }
+    .contact-part span h3 {
+        font-size: 14px;
+    }
+    .hp-logo img{
+        width: 130px;
+    }
+    .hp-logo{
+        width: 37%;
+    }
+}
+
+@media (max-width: 450px){
+
 }
