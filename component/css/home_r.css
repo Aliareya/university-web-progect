@@ -1,0 +1,245 @@
+@media (max-width: 1440px){
+    .hero{
+        height:615px ;
+    }
+    .hero-imag img {
+        border-radius: 115px;
+        width: 680px;
+        height: 600px;
+    }
+    .hero-part-2-category {
+        gap: 40px;
+    }
+    .hero-part-2 {
+        height: 700px;
+    }
+    .hero-2{
+        height: 700px;
+    }
+    #depatrt{
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 1440px){
+    .hero-contant h1 {
+        font-size: 70px;
+    }
+    .hero-contant {
+        width: 37%;
+    }
+    .hero-imag {
+        width: 55%;
+    }
+    .hero-imag img {
+        border-radius: 163px;
+        width: 574px;
+        height: 513px;
+    }
+    #hero-imag-3 {
+        width: 38%;
+    }
+    .hero {
+        height: 530px;
+    }
+    .cat-1 {
+        width: 257px;
+    }
+    .hero-part-2-category {
+        gap: 24px;
+    }
+    .hero-part-2 {
+        height: 580px;
+    }
+    #depatrt {
+        padding-top: 36px;
+    }
+    .hero-part-2 h1 {
+        font-size: 45px;
+        padding-top: 32px;
+    }
+    .hero-2 {
+        height: 578px;
+    }
+    #hero-contant-3 h1 {
+        font-size: 52px;
+    }
+    #emargency {
+        width: 400px;
+        height: 450px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .hero-contant p {
+        width: 430px;
+    }
+    #hero-part-3 {
+        height: 597px;
+        border-top-right-radius: 146px;
+        border-bottom-right-radius: 167px;
+    }
+    .doctor img{
+        width: 190px;
+        height: 190px;
+    }
+    .doctors {
+        gap: 27px;
+        height: 410px;
+    }
+    #depatrt {
+        padding-top: 12px;
+    }
+    .form-container {
+        width: 93%;
+    }
+    .location img{
+        width: 150px;
+        height: 160px;
+    }
+    .locations {
+        height: 293px;
+    }
+    .hero-part-4 {
+        height: 390px;
+    }
+}
+
+@media (max-width: 770px){
+    .hero-contant h1 {
+        font-size: 46px;
+    }
+    .hero-imag img {
+        border-radius: 100px;
+        width: 440px;
+        height: 430px;
+    }
+    .hero {
+        height: 440px;
+        border-top-right-radius: 140px;
+        border-bottom-right-radius: 115px;
+    }
+    #hero-contant-3 h1 {
+        font-size: 33px;
+    }
+    .hero-contant p {
+        font-size: 15px;
+        width: 270px;
+    }
+    #hero-button {
+        padding: 20px;
+        border-radius: 12px;
+        border: none;
+        margin-top: 35px;
+        font-size: 16px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    #emargency {
+        width: 300px;
+        height: 325px;
+    }
+    .hero-part-2 h1 {
+        font-size: 33px;
+        padding-top: 24px;
+    }
+    .hero-part-2 {
+        border-top-left-radius: 164px;
+        border-bottom-left-radius: 145px;
+    }
+    .cat-1 {
+        width: 175px;
+        height: 140px;
+    }
+    #depatrt {
+        padding-top: 47px;
+    }
+    .hero-part-2 {
+        height: 530px;
+    }
+    .hero-part-2 {
+        height: 500px;
+    }
+    .hero-2 {
+        height: 530px;
+    }
+    #hero-part-3 {
+        height: 440px;
+        border-top-right-radius: 115px;
+        border-bottom-right-radius: 110px;
+    }
+    .doctor img {
+        width: 130px;
+        height: 130px;
+    }
+    #doctorname {
+        font-size: 15px;
+    }
+    .Exper {
+        font-size: 15px;
+    }
+    .doctors {
+        gap: 27px;
+        height: 300px;
+    }
+    .hero-part-2 {
+        border-top-left-radius: 120px;
+    }
+    .hero-part-2 {
+        height: 468px;
+    }
+    #depatrt {
+        padding-top: 30px;
+    }
+    .hero-2 {
+        height: 502px;
+    }
+    input {
+        width: 313px;
+    }
+    .form-input{
+        gap: 35px !important;
+    }
+    #h1-4 {
+        font-size: 42px;
+    }
+    select {
+        width: 196px;
+    }
+    textarea {
+        min-width: 658px;
+        min-height: 131px;
+    }
+    .form-container {
+        height: 582px;
+    }
+    .location img {
+        width: 109px;
+        height: 125px;
+    }
+    .locations {
+        gap: 30px;
+        height: 300px;
+    }
+    .location h1 {
+        font-size: 24px;
+    }
+    .location {
+        justify-content: start;
+    }
+    .hero-part-4 {
+        height: 300px;
+    }
+    .hero-part-4 h1 {
+        padding-bottom: 16px;
+    }
+    .hero-2 {
+        height: 468px;
+    }
+    .hero-2 {
+        height: 484px;
+    }
+    .hero-part-2 {
+        height: 488px;
+    }
+
+}
