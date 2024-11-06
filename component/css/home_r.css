@@ -464,7 +464,7 @@
         height: 51px;
     }
 }
-@media (max-width:365px) {
+@media (max-width:357px) {
     .hero-contant p {
         width: 330px;
     }
@@ -482,7 +482,7 @@
     }
     .hero-imag img {
         width: 343px;
-        height: 309px;
+        height: 300px;
     }
     .hero {
         height: 638px;
