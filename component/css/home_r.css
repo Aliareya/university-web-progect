@@ -104,7 +104,7 @@
     }
 }
 
-@media (max-width: 770px){
+@media (max-width: 800px){
     .hero-contant h1 {
         font-size: 46px;
     }
@@ -242,4 +242,225 @@
         height: 488px;
     }
 
+}
+
+@media (max-width: 425px){
+    .hero {
+        height: 740px;
+        border-top-right-radius: 140px;
+        border-bottom-right-radius: 115px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-contant {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-imag {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .hero-imag img {
+        width: 426px;
+        height: 408px;
+    }
+    .location img {
+        width: 64px;
+        height: 76px;
+    }
+    .locations {
+        gap: 10px;
+        height: 300px;
+    }
+    .location h1 {
+        font-size: 15px;
+    }
+    .hero-part-4 {
+        height: 250px;
+    }
+    .hero-part-2 h1 {
+        font-size: 26px;
+        padding-top: 32px;
+        margin-bottom: -26px;
+    }
+    .cat-1 {
+        width: 140px;
+        height: 140px;
+    }
+    .hero-2 {
+        height: 680px;
+    }
+    .hero-part-2 {
+        height: 680px;
+        border-top-left-radius: 91px;
+        border-bottom-left-radius: 75px;
+    }
+    #depatrt {
+        font-size: 15px;
+    }
+    .hero-part-2-category {
+        gap: 55px;
+    }
+    .cat-1 h2 {
+        padding-top: 15px;
+        font-size: 16px;
+    }
+    .doctors {
+        gap: 27px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .doctor {
+        width: 177px;
+        height: 321px;
+    }
+    #hero-part-3 {
+        height: 690px;
+        border-bottom-right-radius: 73px;
+    }
+    #hero-contant-3 {
+        width: 87%;
+    }
+    .hero-contant p {
+        width: 350px;
+    }
+    #hero-button {
+        font-size: 16px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    #hero-imag-3 {
+        width: 100%;
+    }
+    #emargency {
+        width: 365px;
+        height: 325px;
+        object-fit: cover;
+    }
+    .form-input {
+        gap: 13px !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .form-container {
+        padding-top: 35px;
+    }
+    #h1-4 {
+        font-size: 32px;
+    }
+    select {
+        width: 309px;
+    }
+    form {
+        gap: 16px;
+    }
+    .form-container {
+        height: 740px;
+    }
+    textarea {
+        min-width: 310px;
+        min-height: 131px;
+    }
+    #form-button {
+        font-size: 15px;
+        padding-right: 15px;
+        padding-left: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero-imag img {
+        width: 373px;
+        height: 355px;
+    }
+    .hero {
+        height: 690px;
+        border-top-right-radius: 76px;
+        border-bottom-right-radius: 95px;
+    }
+    .cat-1 {
+        width: 122px;
+        height: 140px;
+    }
+    .hero-part-2-category {
+        gap: 40px;
+    }
+    #emargency {
+        width: 325px;
+        height: 285px;
+        object-fit: cover;
+    }
+    #hero-contant-3 h1 {
+        font-size: 29px;
+    }
+    #hero-part-3 {
+        height: 640px;
+        border-bottom-right-radius: 73px;
+        border-top-right-radius: 75px;
+    }
+}
+
+@media (max-width:320px) {
+    .hero-contant p {
+        width: 278px;
+    }
+    .hero-imag img {
+        width: 317px;
+        height: 322px;
+    }
+    .hero {
+        height: 654px;
+    }
+    .hero-part-2 h1 {
+        font-size: 21px;
+    }
+    .cat-1 {
+        width: 107px;
+        height: 121px;
+    }
+    .hero-2 {
+        height: 1212px;
+    }
+    .hero-part-2 {
+        height: 618px;
+    }
+    #depatrt {
+        font-size: 13px;
+        padding-top: 1px;
+    }
+    #emargency {
+        width: 283px;
+        height: 229px;
+        object-fit: cover;
+    }
+    .doctor {
+        width: 177px;
+        height: 275px;
+    }
+    .hero-part-2 {
+        height: 1212px;
+    }
+    input {
+        width: 262px;
+    }
+    select {
+        width: 271px;
+    }
+    textarea {
+        min-width: 273px;
+        min-height: 115px;
+    }
+    #home-form-btn{
+        width: 90%;
+        display: flex;
+        gap: 18px;
+        align-items: center;
+    }
+    .location img {
+        width: 47px;
+        height: 51px;
+    }
 }
