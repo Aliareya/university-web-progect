@@ -464,7 +464,7 @@
         height: 51px;
     }
 }
-@media (max-width:357px) {
+@media (max-width:362px) {
     .hero-contant p {
         width: 330px;
     }
