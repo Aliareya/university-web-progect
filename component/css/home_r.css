@@ -477,8 +477,8 @@
         width: 54px;
         height: 56px;
     }
-    #home-from-btn{
-        gap: 20px;
+    #home-form-btn{
+        gap: 20px !important;
     }
     .hero-imag img {
         width: 343px;
