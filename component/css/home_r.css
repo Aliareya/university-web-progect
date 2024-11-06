@@ -459,8 +459,32 @@
         gap: 18px;
         align-items: center;
     }
-    .location img {
+        .location img {
         width: 47px;
         height: 51px;
+    }
+}
+@media (max-width:365px) {
+    .hero-contant p {
+        width: 330px;
+    }
+    #emargency {
+        width: 317px;
+        height: 251px;
+        object-fit: cover;
+    }
+    .location img {
+        width: 54px;
+        height: 56px;
+    }
+    #home-from-btn{
+        gap: 20px;
+    }
+    .hero-imag img {
+        width: 343px;
+        height: 309px;
+    }
+    .hero {
+        height: 638px;
     }
 }
