@@ -1,0 +1,228 @@
+.header___section {
+  display: flex;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 0px 0px 200px 200px;
+  padding: 80px 0;
+  overflow: hidden;
+}
+.header___section h1 {
+  font-size: 100px;
+  color: rgba(20, 38, 128, 0.998);
+  margin-top: 120px;
+}
+.catagory__section {
+  background-color: #fff;
+  border-radius: 150px 150px 0 150px;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.catagory__section .box {
+  background-color: rgb(231, 231, 231);
+  text-align: center;
+  overflow: hidden;
+  /* padding-top: 40px; */
+  /* height: 100px; */
+  border-radius: 10px;
+}
+.catagory__section .box img {
+  width: 100%;
+  height: 70%;
+  margin-bottom: 30px;
+}
+.catagory__section .box a {
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 900;
+  color: rgba(20, 38, 128, 0.998);
+}
+.box:hover a {
+  color: #fff;
+}
+.box:hover {
+  transition: all 1s ease;
+  background-color: rgba(20, 38, 128, 0.998);
+  color: #fff;
+  transform: translateY(-10px);
+}
+
+.packages__section {
+  text-align: center;
+  padding: 100px 0;
+}
+.packages__section .packages__head {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  padding-bottom: 40px;
+}
+.packages__section .packages__head h1 {
+  font-size: 100px;
+  color: rgba(20, 38, 128, 0.998);
+}
+.packages__section .packages__head .btn {
+  height: 20px;
+  width: 19rem;
+  height: 5rem;
+  margin-top: 30px;
+  font-size: 25px;
+  color: #fff;
+  background-color: rgb(243, 128, 62);
+  border-radius: 40px;
+  border: 0;
+}
+.packages__section .packages__card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 70px;
+  padding: 0 50px;
+}
+.package {
+  text-align: start;
+  padding: 40px 0 40px 40px;
+  background-color: #fff;
+  height: fit-content;
+  font-size: 20px;
+  line-height: 40px;
+  color: rgba(20, 38, 128, 0.998);
+  border-radius: 20px;
+}
+.package span {
+  color: rgb(243, 128, 62);
+  font-size: 30px;
+  padding-right: 10px;
+}
+.package h1 {
+  color: rgb(243, 128, 62);
+}
+.package h3 {
+  font-size: 30px;
+  padding: 10px 0;
+}
+.package button {
+  width: 19rem;
+  height: 5rem;
+  margin: 10px 0;
+  border-radius: 40px;
+  border: 0;
+  font-size: 24px;
+  color: #fff;
+  background-color: rgba(20, 38, 128, 0.998);
+}
+.appoinment__section {
+  padding: 100px 0px;
+  background-color: #fff;
+  border-radius: 0px 200px 0 200px;
+}
+.input__feild {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding: 0px 40px;
+}
+
+.select__feild {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  padding: 20px 40px;
+}
+input,
+select,
+textarea {
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  background-color: rgb(231, 231, 231);
+  color: rgba(20, 38, 128, 0.998);
+  padding: 10px;
+  font-size: 15px;
+}
+.text__area {
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 20px 40px;
+}
+textarea {
+  height: 250px;
+  font-size: 20px;
+}
+
+.appoinment__section h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 100px;
+  color: rgba(20, 38, 128, 0.998);
+}
+.btn__feild {
+  padding: 30px 0;
+  display: flex;
+  margin-left: 40px;
+}
+.btn__feild button {
+  width: 100px;
+  width: 19rem;
+  height: 5rem;
+  font-size: 25px;
+  color: #fff;
+  background-color: rgb(243, 128, 62);
+  border-radius: 40px;
+  border: 0;
+}
+.btn__feild p {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 20px;
+  color: rgba(20, 38, 128, 0.998);
+}
+.action__section {
+  padding: 100px 0;
+}
+.action__section h1 {
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: rgba(20, 38, 128, 0.998);
+}
+.action__section h4 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgba(20, 38, 128, 0.998);
+}
+.action__box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 40px 40px;
+}
+.action__box .box {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 40px;
+  height: 100px;
+  border-radius: 10px;
+}
+.action__box .box a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgba(20, 38, 128, 0.998);
+}
+.box:hover {
+  transition: all 2s ease;
+  background-color: rgba(20, 38, 128, 0.998);
+  color: #fff;
+}
+
+.action__box .box:hover a {
+  color: #fff;
+}
+.btn__hover:hover {
+  transition: all 2s ease;
+  background-color: rgba(20, 38, 128, 0.998);
+  color: #fff;
+}
