@@ -11,7 +11,7 @@ function updateHeader() {
         <div class="logo">
             <img src="./image/logo.png" width="70" height="70">
         </div>
-        ${screenWidth > 850 ? `
+        ${screenWidth > 900 ? `
             <div class="menu">
                 <li><a href="Home.html">Home</a></li>
                 <li><a href="#">About Us</a></li>
