@@ -1,5 +1,6 @@
 .header___section {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   text-align: center;
   background-color: #fff;
   border-radius: 0px 0px 200px 200px;
@@ -19,18 +20,16 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
+
 .catagory__section .box {
   background-color: rgb(231, 231, 231);
   text-align: center;
   overflow: hidden;
-  /* padding-top: 40px; */
-  /* height: 100px; */
   border-radius: 10px;
 }
 .catagory__section .box img {
   width: 100%;
   height: 70%;
-  /* margin-bottom: 30px; */
 }
 .catagory__section .box .box__bottom {
   display: flex;
@@ -89,6 +88,7 @@
   gap: 70px;
   padding: 0 50px;
 }
+
 .package {
   text-align: start;
   padding: 40px 0 40px 40px;
@@ -99,6 +99,7 @@
   color: rgba(20, 38, 128, 0.998);
   border-radius: 20px;
 }
+
 .package span {
   color: rgb(243, 128, 62);
   font-size: 30px;
@@ -209,6 +210,7 @@ textarea {
   gap: 20px;
   padding: 40px 40px;
 }
+
 .action__box .box {
   display: flex;
   justify-content: center;
@@ -241,4 +243,67 @@ textarea {
   transition: all 2s ease;
   background-color: rgba(20, 38, 128, 0.998);
   color: #fff;
+}
+@media (max-width: 832px) {
+  .action__box {
+    grid-template-columns: 1fr 1fr;
+  }
+  .action__section {
+    padding: 0px;
+  }
+}
+@media (max-width: 932px) {
+  .catagory__section {
+    grid-template-columns: 1fr 1fr;
+  }
+  .header___section h1 {
+    font-size: 60px;
+  }
+  .header___section img {
+    width: 85%;
+    margin-left: 40px;
+  }
+}
+@media (max-width: 1200px) {
+  .packages__section .packages__card {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 0px;
+  }
+  .header___section {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 690px) {
+  .packages__section .packages__card {
+    grid-template-columns: 1fr;
+  }
+  .package {
+    text-align: center;
+    /* padding: 40px 10px; */
+  }
+  .packages__head h1 {
+    font-size: 40px;
+  }
+  .packages__section .packages__head {
+    padding: 0px;
+  }
+  .select__feild {
+    grid-template-columns: 1fr;
+  }
+  .input__feild {
+    grid-template-columns: 1fr;
+  }
+  .appoinment__section h1 {
+    font-size: 50px;
+  }
+  .packages__section .packages__head h1 {
+    font-size: 50px;
+  }
+  .catagory__section {
+    grid-template-columns: 1fr;
+  }
+  .action__box {
+    grid-template-columns: 1fr;
+  }
 }
