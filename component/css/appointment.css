@@ -1,0 +1,13 @@
+#hero-img-appontment {
+   height: 635px;
+   width: 699px;
+   object-fit: cover;
+}
+.hero {
+   height: 639px;
+   border-top-right-radius: 204px;
+   border-bottom-right-radius: 186px;
+}
+.hero-imag img {
+   border-radius: 0;
+}

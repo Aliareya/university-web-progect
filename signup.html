@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./component/css/signup.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="singup-container">
+        <h1> Create an Account </h1>
+        <form action="" class="singup-form">
+            <div class="signup-input-container">
+                <label for="name">Name<span class="required">*</span></label>
+                <input type="text" id="S-name" placeholder="inter your Name...">
+            </div>
+
+            <div class="signup-input-container">
+                <label for="username">User name <span class="required">*</span></label>
+                <input type="text" id="S-username" placeholder="inter your uaername">
+            </div>
+
+            <div class="signup-input-container">
+                <label for="email">Email<span class="required">*</span></label>
+                <input type="text" id="S-email" placeholder="inter your Email...">
+            </div>
+
+            <div class="signup-input-container">
+                <label for="name">Password <span class="required">*</span></label>
+                <input type="text" id="S-password" placeholder="inter your Password...">
+            </div>
+
+            <div id="S-btn" class="signup-input-container">
+                <button id="singnup-submit-btn" type="submit">Sing Up</button>
+                <p id="have-accout">Already I have an Account?<a href="login.html">Login</a></p>
+                <p id="loding">Loding...</p>
+            </div>
+        </form>
+    </div>
+    <script src='./component/js/signup.js'></script>
+</body>
+</html>

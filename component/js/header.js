@@ -4,6 +4,7 @@ let mobileMenu = "hide";
 function updateHeader() {
     header.innerHTML = ""; 
     const screenWidth = window.innerWidth;
+    console.log(screenWidth)
     
     const newHeader = document.createElement('div');
     newHeader.className = "header-info";
@@ -14,12 +15,11 @@ function updateHeader() {
         ${screenWidth > 900 ? `
             <div class="menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="about.html">About Us</a></li>
                 <li><a href="department.html">Departments</a></li>
                 <li><a href="#">Doctors</a></li>
                 <li><a href="#">Emergency</a></li>
-                <li><a href="#">Pharmacy</a></li>
-                <li id="last-menu"><a href="#">Schedule an appointment</a></li>
+                <li id="last-menu"><a href="appointment.html">Schedule an appointment</a></li>
             </div>
         ` : `
             <div class="mobile-menu">
@@ -36,11 +36,10 @@ function updateHeader() {
     mobileMenuContent.style.display = mobileMenu === "show" ? "flex" : "none";
     mobileMenuContent.innerHTML = `
         <li><a href="index.html">Home</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><a href="about.html">About Us</a></li>
         <li><a href="department.html">Departments</a></li>
         <li><a href="#">Doctors</a></li>
         <li><a href="#">Emergency</a></li>
-        <li><a href="#">Pharmacy</a></li>
         <li id="last-mobail-menu"><a href="#">Schedule an appointment</a></li>
     `;
     

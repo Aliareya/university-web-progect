@@ -94,6 +94,11 @@
     color: black;
     font-family: 'Times New Roman', Times, serif;
 }
+#profile-img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
 /* Responsive Part just for header */
 
 @media (max-width: 1440px){
@@ -152,4 +157,13 @@
     .mobile-menu{
         width: 58%;
     }
+}
+/* Hide the mobile menu content by default */
+.mobile-menu-content {
+    display: none;
+}
+
+/* Show the mobile menu content when 'show' class is added */
+.mobile-menu-content.show {
+    display: block;
 }

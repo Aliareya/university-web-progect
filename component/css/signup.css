@@ -1,0 +1,138 @@
+body{
+    background-color: #d3d3d3;
+}
+.singup-container{
+    width: 33%;
+    height: 580px;
+    background-color: #ffffff;
+    margin:50px auto ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.singup-form{
+    width: 85%;    
+}
+.signup-input-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 15px;
+}
+.signup-input-container label{
+    font-size: 18px;
+    font-weight: 700;
+    color: #1e4968;
+}
+.signup-input-container input {
+    width: 100%;
+    height: 35px;
+    border:none;
+    padding-left: 10px;
+    border-radius: 6px;
+    background-color: #e6e6e6a8;
+}
+.signup-input-container input:focus{
+    border: 1.5px solid #0088b9;
+    outline: none;
+}
+.required{
+    color: red;
+}
+#singnup-submit-btn{
+    background-color:#0088b9;
+    width: 450px;
+    height: 40px;
+    border: none;
+    margin-top: 14px;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+}
+#have-accout{
+    text-align: center; 
+}
+h1 {
+    font-size: 34px;
+    font-family: sans-serif;
+    padding-top: 16px;
+    color: #4086b8;
+}
+#S-btn{
+    gap: 0;
+}
+#loding{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    display: none;
+}
+@media (max-width:1440px) {
+    .singup-container {
+        width: 37%;
+    }
+}
+
+@media (max-width:1024px) {
+    .singup-container {
+        width: 45%;
+        padding-right: 10px;
+    }
+    #singnup-submit-btn {
+        width: 398px;
+    }
+}
+
+@media (max-width:768px) {
+    .singup-container {
+        width: 58%;
+        padding-right: 10px;
+    }
+    #singnup-submit-btn {
+        width: 383px;
+    }
+}
+
+@media (max-width:425px) {
+    .singup-container {
+        width: 90%;
+        padding-right: 10px;
+    }
+    #singnup-submit-btn {
+        width: 327px;
+    }
+    .signup-input-container{
+        gap:0;
+    }
+    .singup-container {
+        margin: 29px auto;
+        height: 529px;
+    }
+}
+@media (max-width:380px) {
+    #singnup-submit-btn {
+        width: 287px;
+        margin-top: 10px;
+    }
+    .signup-input-container {
+        margin-top: 12px;
+    }
+    .singup-container {
+        height: 480px;
+    }
+    h1 {
+        font-size: 25px;
+        padding-top: 8px;
+    }
+}
+
+@media(max-width:320px){
+    #singnup-submit-btn {
+        width: 243px;
+        margin-top: 10px;
+    }
+}

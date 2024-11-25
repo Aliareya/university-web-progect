@@ -1,0 +1,9 @@
+{
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiRed",
+    "terminal.integrated.commandsToSkipShell": [
+        ""
+    ],
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredLightColorTheme": "Default Dark+",
+    "workbench.preferredDarkColorTheme": "Default Dark Modern"
+}
