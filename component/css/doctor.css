@@ -1,68 +1,81 @@
 
+.doctors-section{
+    background-color: #fff;
+    padding: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
 .our-doctors{
     width: 100%;
-    height: 440px;
-    font-size: 100px;
+    height: 250px;
+    font-size: 70px;
+    border-bottom-right-radius: 100px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 120px;
     color: rgba(20, 38, 128, 0.998);
     background-color: rgb(232, 232, 232);
-    text-align: center;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
-}
-.first{
-    border-top-left-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    
 }
 
 .doc-section img{
-    width: 550px;
-    height: 550px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     margin-top: 100px;
 }
+.doc-section img:hover{
+    transform: translateY(-10px);
+}
 .doc-section{
     background-color: #fff;
-
     text-align: center;
 }
+.doc-section:hover{
+    transition: all 1s ease;
+    background-color: rgba(230, 230, 230, 0.998);
+    transform: translateY(-10px);
+}
+
 .doc-name{
-    font-size: 50px;
+    font-size: 40px;
     color: rgb(250, 131, 41);
     margin-top: 30px;
 
 }
 .doc-part{
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(18, 71, 164);
 }
 .doc-position{
     margin-top: 15px;
-    font-size:22px ;
+    font-size:18px ;
     color:  rgb(13, 85, 163);
 }
 .doc-position p{
     color: rgba(12, 4, 120, 0.712);
 }
-.last-btn{
-    width: 100%;
-    height: 100px;
-    background-color: #fff;
-}
-.button {
-    width: 100px;
-    height: 50px;
-    margin-top: 20px;
-    font-size: 15px;
-    margin-left: 45%;
+.button {  
+    width: 19rem;
+    height: 5rem;
+    font-size: 25px;
     color: #fff;
-    background-color: rgb(246, 124, 54);
-    border-radius: 30px;
+    background-color: rgb(243, 128, 62);
+    border-radius: 40px;
     border: 0;
+    display: grid;
+    padding-top: 25px;
+    text-align: center;
   }
   .button:hover{
     color: blue;
-    background-color: rgb(8, 255, 255);
-    padding: 0px;
+    background-color: rgba(230, 230, 230, 0.998) ;
+    
   }
  
