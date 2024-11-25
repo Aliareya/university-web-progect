@@ -11,3 +11,18 @@
 .hero-imag img {
    border-radius: 0;
 }
+.hero-imag {
+   padding-top: 26px;
+   width: 42%;
+   padding-top: 97px;
+}
+#hero-img-appontment {
+   height: 635px;
+   width: 699px;
+   object-fit: contain;
+}
+.hero {
+   height: 639px;
+   border-top-right-radius: 181px;
+   border-bottom-right-radius: 169px;
+}
