@@ -17,7 +17,7 @@ function updateHeader() {
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="department.html">Departments</a></li>
-                <li><a href="#">Doctors</a></li>
+                <li><a href="doctor.html">Doctors</a></li>
                 <li><a href="#">Emergency</a></li>
                 <li id="last-menu"><a href="appointment.html">Schedule an appointment</a></li>
             </div>
@@ -38,7 +38,7 @@ function updateHeader() {
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="department.html">Departments</a></li>
-        <li><a href="#">Doctors</a></li>
+        <li><a href="doctor.html">Doctors</a></li>
         <li><a href="#">Emergency</a></li>
         <li id="last-mobail-menu"><a href="#">Schedule an appointment</a></li>
     `;
