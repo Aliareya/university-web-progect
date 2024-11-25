@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    border-top-right-radius: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.header h1{
+    font-size: 100px;
+    margin-bottom: 30px;
+    color: rgba(33, 65 , 103);
+}
+.header p{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color:  rgba(33, 65 , 103);
+}
+.header .btn__header{
+    width: 250px;
+    height: 70px;
+    background-color:rgb(255, 135, 97);
+    font-size: 20px;
+    border: 0;
+    border-radius: 30px;
+    color: #fff;
+}
+.story__section{
+    display: flex;
+    background-color: #fff;
+  
+}
+.story__desc{
+    width: 70%;
+}
+
+.story__desc h1{
+    padding-left: 20px;
+    font-size: 100px;
+    color: rgba(33, 65 , 103);
+}
+.story__desc p{
+    padding-left: 20px;
+    font-size: 25px;
+    color:rgba(33, 65 , 103);
+}
+.story__desc h3{
+    padding: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+    color: rgba(33, 65 , 103);
+}
+.story__desc h5{
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: rgba(33, 65 , 103);
+}
+.story__desc  h5 span{
+    padding: 10px;
+    size: 20px;
+    color: orange;
+
+}
+.amount_Box{
+    width: 30%;
+    height: 550px;
+    background-color: rgb(255, 247, 244);
+    
+}
+.beds{
+    width: 40%;
+    height: 50px;
+    display: flex;
+  
+}
+.amount_desc{
+    padding: 10px;
+    color:  rgba(33, 65 , 103);
+}
+.video__section{
+
+    padding: 0 50px;
+    padding-top: 100px;
+    text-align: center;
+}
+.video__section h1{
+    font-size: 100px;
+    margin-bottom: 30px;
+    color:  rgba(33, 65 , 103);
+    
+}
+.video__section video{
+    width: 100%;
+    border-radius: 20px;
+    padding-bottom: 10px;
+
+}
+
+.btn__header:hover{
+    background-color:rgba(33, 65 , 103);
+}
+.mission_section {
+    padding-top: 33px;
+    padding: 25px;
+    width: 100%;
+    height: 600px;
+    /* display: flex
+; */
+    background-color: rgb(255, 255, 255);
+    padding-top: 74px;
+    border-top-right-radius: 138px;
+    border-bottom-right-radius: 138px;
+}
+.our_mission p{
+    padding: 20px;
+    padding-left: 20px;
+    width: 80%;
+    font-size: 15px;
+    color:  rgba(33, 65 , 103);
+    
+}
+.mission_section .top-mission{
+    display: flex;
+    color: rgba(33, 65 , 103);
+
+}
+.top-mission img{
+    border-radius: 10px;
+    object-fit: cover;
+   width: 50%;
+   height: 50%;
+}
+.our_mission{
+    width: 49%;
+}
+.our_mission h1{
+    padding-left: 20px;
+    font-size: 60px;
+    color:  rgba(33, 65 , 103);
+}
+.mission__footer{
+    padding: 20px;
+    gap: 100px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.mission__footer .patient{
+    color: rgba(33, 65 , 103);
+    padding-bottom: 100px;
+}
+.action__section {
+    padding: 100px 0;
+  }
+  .action__section h1 {
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgba(33, 65 , 103);
+  }
+  .action__section h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgba(33, 65 , 103);
+  }
+  .action__box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px 40px;
+  }
+  .action__box .box {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  .action__box .box a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(33, 65 , 103);
+  }
+  .box:hover {
+    transition: all 2s ease;
+    background-color: rgba(33, 65 , 103);
+    color: #fff;
+  }
+  
+  .action__box .box:hover a {
+    color: #fff;
+  }
+  .btn__hover:hover {
+    transition: all 2s ease;
+    background-color: rgba(33, 65 , 103);
+    color: #fff;
+  }
+  #perform{
+    width: 180px;
+  }
+  .story__section{
+    padding: 40px;
+  }
+  .amount_Box{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: space-evenly;
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        padding-left: 20px;
+}
+.about-hero {
+    width: 47%;
+    height: auto;
+    background-image: url('../../images_project/2-06-p-800.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 28px;
+}
+.patient h3{
+    padding-top:20px;
+}
+.mission__footer .patient {
+    color: rgba(33, 65, 103);
+    padding-bottom: 100px;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.story__desc p {
+    width: 686px;
+    padding-left: 20px;
+    font-size: 19px;
+    color: rgba(33, 65, 103);
+}
+.story__desc h1 {
+    font-size: 93px;
+}
+.story__desc h3 {
+    padding: 20px;
+    padding-left: 20px;
+    padding-top: 60px;
+    font-size: 30px;
+    color: rgba(33, 65, 103);
+}
+.story__section {
+    padding: 40px;
+    border-top-right-radius: 138px;
+    border-bottom-right-radius: 138px;
+}
+.hero {
+    background-color: #e7e7e7;
+    height: 649px;
+}
+.hero-imag img {
+    border-radius: 0px;
+}
+.hero-contant p{
+    color:  rgba(33, 65, 103);
+}

@@ -14,7 +14,7 @@ function updateHeader() {
         ${screenWidth > 900 ? `
             <div class="menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="about.html">About Us</a></li>
                 <li><a href="department.html">Departments</a></li>
                 <li><a href="doctor.html">Doctors</a></li>
                 <li><a href="#">Emergency</a></li>
